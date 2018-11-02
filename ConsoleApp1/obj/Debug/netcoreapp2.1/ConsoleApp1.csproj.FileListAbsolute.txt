@@ -1,0 +1,11 @@
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
