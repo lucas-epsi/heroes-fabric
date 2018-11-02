@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Threading;
 
-namespace ConsoleApp1
+
+namespace herofabric
 {
 
     public class ThreadWork
