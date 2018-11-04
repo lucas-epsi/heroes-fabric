@@ -207,6 +207,27 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Classheroes/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "methods-system": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Classheroes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Classheroes.dll": {}
+        }
+      },
+      "methods-system/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/methods-system.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/methods-system.dll": {}
+        }
       }
     }
   },
@@ -673,10 +694,21 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Classheroes/1.0.0": {
+      "type": "project",
+      "path": "../Classheroes/Classheroes.csproj",
+      "msbuildProject": "../Classheroes/Classheroes.csproj"
+    },
+    "methods-system/1.0.0": {
+      "type": "project",
+      "path": "../methods-system/methods-system.csproj",
+      "msbuildProject": "../methods-system/methods-system.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Classheroes >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -687,11 +719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\lucas.florentin1\\source\\repos\\heroes-fabric\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\lucas.florentin1\\source\\repos\\heroes-fabric\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "c:\\users\\lucas.florentin1\\source\\repos\\heroes-fabric\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\lucas.florentin1\\source\\repos\\heroes-fabric\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\lucas.florentin1\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\lucas.florentin1\\source\\repos\\heroes-fabric\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\lucas.florentin1\\source\\repos\\heroes-fabric\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -709,7 +741,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lucas.florentin1\\source\\repos\\heroes-fabric\\Classheroes\\Classheroes.csproj": {
+              "projectPath": "C:\\Users\\lucas.florentin1\\source\\repos\\heroes-fabric\\Classheroes\\Classheroes.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

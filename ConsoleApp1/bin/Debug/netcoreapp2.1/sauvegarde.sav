@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHeroes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <heroes>
+    <name>Jack Nicholson</name>
+    <niveau>1</niveau>
+    <xp>0</xp>
+    <PV>15</PV>
+  </heroes>
+</ArrayOfHeroes>

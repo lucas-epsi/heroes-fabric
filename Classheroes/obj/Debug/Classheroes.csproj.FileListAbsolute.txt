@@ -1,0 +1,9 @@
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\Classheroes\bin\Debug\Classheroes.dll
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\Classheroes\bin\Debug\Classheroes.pdb
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\Classheroes\obj\Debug\Classheroes.csprojAssemblyReference.cache
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\Classheroes\obj\Debug\Classheroes.csproj.CoreCompileInputs.cache
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\Classheroes\obj\Debug\Classheroes.dll
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\Classheroes\obj\Debug\Classheroes.pdb
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\Classheroes\bin\Debug\methods-system.dll
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\Classheroes\bin\Debug\methods-system.pdb
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\Classheroes\obj\Debug\Classheroes.csproj.CopyComplete
