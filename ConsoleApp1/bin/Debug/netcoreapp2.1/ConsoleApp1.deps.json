@@ -8,21 +8,22 @@
     ".NETCoreApp,Version=v2.1": {
       "ConsoleApp1/1.0.0": {
         "dependencies": {
-          "Classheroes": "1.0.0"
+          "Classheroes": "1.0.0",
+          "methods-system": "1.0.0"
         },
         "runtime": {
           "ConsoleApp1.dll": {}
         }
       },
       "Classheroes/1.0.0": {
-        "dependencies": {
-          "methods-system": "1.0.0"
-        },
         "runtime": {
           "Classheroes.dll": {}
         }
       },
       "methods-system/1.0.0": {
+        "dependencies": {
+          "Classheroes": "1.0.0"
+        },
         "runtime": {
           "methods-system.dll": {}
         }

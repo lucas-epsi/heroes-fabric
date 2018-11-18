@@ -44,11 +44,5 @@
     <Compile Include="hero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\methods-system\methods-system.csproj">
-      <Project>{5ff7c8fc-7fa5-4e15-bac5-b36006cca6af}</Project>
-      <Name>methods-system</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

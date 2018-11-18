@@ -4,3 +4,6 @@ C:\Users\lucas.florentin1\source\repos\heroes-fabric\methods-system\obj\Debug\me
 C:\Users\lucas.florentin1\source\repos\heroes-fabric\methods-system\obj\Debug\methods-system.csproj.CoreCompileInputs.cache
 C:\Users\lucas.florentin1\source\repos\heroes-fabric\methods-system\obj\Debug\methods-system.dll
 C:\Users\lucas.florentin1\source\repos\heroes-fabric\methods-system\obj\Debug\methods-system.pdb
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\methods-system\bin\Debug\Classheroes.dll
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\methods-system\bin\Debug\Classheroes.pdb
+C:\Users\lucas.florentin1\source\repos\heroes-fabric\methods-system\obj\Debug\methods-system.csproj.CopyComplete

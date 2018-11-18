@@ -210,9 +210,6 @@
       },
       "Classheroes/1.0.0": {
         "type": "project",
-        "dependencies": {
-          "methods-system": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Classheroes.dll": {}
         },
@@ -222,6 +219,9 @@
       },
       "methods-system/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Classheroes": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/methods-system.dll": {}
         },
@@ -709,7 +709,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Classheroes >= 1.0.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "methods-system >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -744,6 +745,9 @@
           "projectReferences": {
             "C:\\Users\\lucas.florentin1\\source\\repos\\heroes-fabric\\Classheroes\\Classheroes.csproj": {
               "projectPath": "C:\\Users\\lucas.florentin1\\source\\repos\\heroes-fabric\\Classheroes\\Classheroes.csproj"
+            },
+            "C:\\Users\\lucas.florentin1\\source\\repos\\heroes-fabric\\methods-system\\methods-system.csproj": {
+              "projectPath": "C:\\Users\\lucas.florentin1\\source\\repos\\heroes-fabric\\methods-system\\methods-system.csproj"
             }
           }
         }

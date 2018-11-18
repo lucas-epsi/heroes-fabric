@@ -44,5 +44,14 @@
     <Compile Include="methods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Classheroes\Classheroes.csproj">
+      <Project>{d89f19ac-fe6e-4f8b-a282-c17b6bc32fb5}</Project>
+      <Name>Classheroes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

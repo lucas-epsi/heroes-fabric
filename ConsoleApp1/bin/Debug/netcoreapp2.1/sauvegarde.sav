@@ -1,33 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfHeroes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <heroes>
-    <auberge>L'AUBERGE DE FREDDY</auberge>
-    <name>Jean-Marie</name>
+    <auberge>LE PARADISE</auberge>
+    <name>Sophia Martinez</name>
     <niveau>1</niveau>
     <xp>0</xp>
-    <PV>15</PV>
-    <force>0</force>
-    <endurance>0</endurance>
-    <agilité>0</agilité>
+    <maxp>100</maxp>
+    <PV>100</PV>
+    <maxPV>100</maxPV>
+    <force>10</force>
+    <endurance>10</endurance>
+    <agilité>10</agilité>
+    <vivant>true</vivant>
   </heroes>
   <heroes>
-    <auberge>L'AUBERGE DE FREDDY</auberge>
-    <name>Pierre</name>
+    <auberge>LE PARADISE</auberge>
+    <name>El fuego</name>
     <niveau>1</niveau>
     <xp>0</xp>
-    <PV>15</PV>
-    <force>0</force>
-    <endurance>0</endurance>
-    <agilité>0</agilité>
+    <maxp>100</maxp>
+    <PV>100</PV>
+    <maxPV>100</maxPV>
+    <force>10</force>
+    <endurance>10</endurance>
+    <agilité>10</agilité>
+    <vivant>true</vivant>
   </heroes>
   <heroes>
-    <auberge>L'AUBERGE DE FREDDY</auberge>
-    <name>Rabol</name>
+    <auberge>LE PARADISE</auberge>
+    <name>Brad Pitt</name>
     <niveau>1</niveau>
     <xp>0</xp>
-    <PV>15</PV>
-    <force>0</force>
-    <endurance>0</endurance>
-    <agilité>0</agilité>
+    <maxp>100</maxp>
+    <PV>100</PV>
+    <maxPV>100</maxPV>
+    <force>10</force>
+    <endurance>10</endurance>
+    <agilité>10</agilité>
+    <vivant>true</vivant>
+  </heroes>
+  <heroes>
+    <auberge>LE PARADISE</auberge>
+    <name>un hydravion</name>
+    <niveau>1</niveau>
+    <xp>0</xp>
+    <maxp>100</maxp>
+    <PV>100</PV>
+    <maxPV>100</maxPV>
+    <force>10</force>
+    <endurance>10</endurance>
+    <agilité>10</agilité>
+    <vivant>true</vivant>
   </heroes>
 </ArrayOfHeroes>
