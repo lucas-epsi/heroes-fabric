@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Xml;
+using System.Xml.Linq;
 using System.Xml.Serialization;
 using Classheroes;
 using methods_system;
@@ -160,11 +161,32 @@ namespace herofabric
                         // appel de la méthode de boucle de combat
                         methods.Duel(perso1, perso2);
 
+
+                        // chargement du fichier de sauvegarde
                         XmlDocument docxml = new XmlDocument();
                         docxml.Load(actualpath + "/sauvegarde.sav");
 
+                        // création du nouveau noeud XML à insérer
+                        XElement xmltree = new XElement("Root",
+                        new XElement("auberge", perso1.auberge),
+                        new XElement("name", perso1.name),
+                        new XElement("niveau", perso1.niveau),
+                        new XElement("xp", perso1.xp),
+                        new XElement("maxp", perso1.maxp),
+                        new XElement("PV", perso1.PV),
+                        new XElement("maxPV", perso1.maxPV),
+                        new XElement("force", perso1.force),
+                        new XElement("endurance", perso1.endurance),
+                        new XElement("agilité", perso1.agilité),
+                        new XElement("vivant", perso1.vivant)
+                            
+                            );
                         XmlElement root = docxml.DocumentElement;
-                        XmlNode elem = root.SelectSingleNode("heroes[@name = perso1.name]");
+                        Console.WriteLine(root);
+                        XmlNode elem = root.SelectSingleNode("heroes[@name = "+perso1.name+"]");
+                        // à régler /!\ élement remplaçant pas dans le meme type 
+                        // que le node à remplacer
+                        elem.ReplaceChild(xmltree, elem);
 
                         break;
 
